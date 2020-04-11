@@ -1,0 +1,14 @@
+---
+layout: mypost
+title: Neutron 基础
+categories:  Openstack
+---
+
+## WLAN模式下的网络节点
+![](https://pic.downk.cc/item/5e918364504f4bcb0498a4a5.jpg)
+
+## wlan 模式下的计算节点
+![](https://pic.downk.cc/item/5e918837504f4bcb049d8667.jpg)
+
+## br-tun 转发规则
+![](https://pic.downk.cc/item/5e91c7c6504f4bcb04dcf0aa.jpg)
