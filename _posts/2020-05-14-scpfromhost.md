@@ -12,9 +12,8 @@ categories: OpenStack
   * `cps host-list |grep [host id]`
 4. 去到host 节点，`ip netns |grep [net id]` 得到qdhcp-[netid]
 5. 进入该名空间：`ip netns exec qdhcp-[netid] bash`
-6. 使用登录或者拷贝命令，记得加上`-o "trictHostKeyChecking no"` ，如：
-  * scp -o "trictHostKeyChecking no" /root/file root@ip:/root
+6. 使用登录或者拷贝命令，记得加上`-o "StrictHostKeyChecking=no"` ，如：
+  * `scp -o "StrictHostKeyChecking=no"  /root/file root@ip:/root`
   > scp A B 从A向B拷贝，加 -r 拷贝文件夹
-  
-  * ssh -o "StrictHostKeyChecking no" root@ip
+  * `ssh -o "StrictHostKeyChecking=no" root@ip`
 
