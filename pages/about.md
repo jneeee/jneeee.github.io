@@ -15,5 +15,5 @@ title: 关于我
 
 ## 联系我
 
-- Email : [jneeee@qq.com]
+- Email : jneeee@qq.com
 - GitHub : [https://github.com/jneee](https://github.com/jneee)
