@@ -12,6 +12,7 @@ title: 关于我
 
 ## 网站推荐
 * magnetv.cn 安卓最强磁力播放/下载 2020年5月11日19:06:00
+* [ibm linux教程](https://developer.ibm.com/zh/technologies/linux/tutorials) 
 
 ## 联系我
 
