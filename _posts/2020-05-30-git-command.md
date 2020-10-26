@@ -9,17 +9,20 @@ categories: Note
 
 
 ```bash
-# git bash内创建本地 git 仓库：
-$ cd /home/object
-$ git init
+git bash内创建本地 git 仓库：
+cd /home/object
+git init
 # 添加文件
-$ git add readme.md # 跟踪整个文件夹可以使用 git add .
-$ git commit -m'说明' # 提交 add 到的文件，-m 适合简短的说明，一般不加。
+git add readme.md # 跟踪整个文件夹可以使用 git add .
+git commit -m'说明' # 提交 add 到的文件，-m 适合简短的说明，一般不加。
 
-$ git push origin master #origin是默认远程仓库名，master是工作主分支
-$ git status #查看当前文件修改状态
-$ git diff #(可以跟个文件名) 查看文件的 difference
-$ git log # 查看提交历史，如果版本回退过，之前的历史就需要 git reflog
+git push origin master #origin是默认远程仓库名，master是工作主分支
+git status #查看当前文件修改状态
+git diff #(可以跟个文件名) 查看文件的 difference
+git log # 查看提交历史，如果版本回退过，之前的历史就需要 git reflog
+git stash #保存/回退当前已追踪文件的改动，
+git stash drop 0  # 删除stash0
+git stash list 
 ```
 
 ## 二、进阶命令
