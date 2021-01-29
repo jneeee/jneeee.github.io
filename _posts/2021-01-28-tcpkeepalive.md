@@ -1,7 +1,7 @@
 ---
-layout: mypost
+layout: post
 title: TCP 中的 KeepAlive 机制
-categories: network
+categories: 代码
 ---
 ## 一、ELB TCP长链接偶现超时的问题
 Linux TCP 的保活超时时间默认是7200s，即一个连接需要超过7200s不活跃才开始发送心跳包。而 **ELB的TCP会话超时时间为300s**，这样有可能导致ELB已经释放链接端口而Client和Server没有释放，从而导致业务链接超时。

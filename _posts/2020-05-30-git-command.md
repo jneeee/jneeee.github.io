@@ -1,15 +1,15 @@
 ---
-layout: mypost
+layout: post
 title: Git 版本控制常用命令
-categories: Note
+categories: 代码
 ---
 > 整理工作场景下常用的git命令
 
 ## 一、基本命令
 
 
+git bash内创建本地 git 仓库等命令
 ```bash
-git bash内创建本地 git 仓库：
 cd /home/object
 git init
 # 添加文件

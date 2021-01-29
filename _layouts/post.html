@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="post">
+  {% if page.external-url %}
+    <h1>
+      <a href="{{ page.external-url }}">{{ page.title }}</a> 
+      <a class="anchor" href="{{ page.url }}"><i class="icon-anchor"></i></a>
+    </h1>
+  {% else %}
+  <h1>{{ page.title }}</h1>
+  {% endif %}
+	<p class="post-meta"><span>分类：</span>
+    {{ site.locales[site.default_locale].PostedInCategories }}
+    {% for cat in page.categories %}
+    <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>{% unless page.categories.last == cat %}, {% endunless %}
+    {% endfor %}
+    {% if page.tags != empty %}<span>  |  标签：</span>
+    {{ site.locales[site.default_locale].Taggedwith }}
+    {% for tag in page.tags %}
+    <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% unless page.tags.last == tag %}, {% endunless %}
+    {% endfor %}
+    {% endif %}
+    <span>  |  发表时间：</span><time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
+    {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%b %-d, %Y" }}
+    </time></p>
+
+    <div class="post-content">{{ content }}</div>
+</article>
+<script src="https://utteranc.es/client.js"
+repo="jneee/jneee.github.io"
+issue-term="pathname"
+theme="github-light"
+crossorigin="anonymous"
+async>
+</script>

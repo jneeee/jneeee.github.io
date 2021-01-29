@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/color-7642.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+  <a class="site-title" href="/">Jneee</a><span>As you think, so shall you become</span>
+      <nav class="menu">
+<a class='pagelink' href="/">首页</a>
+<a class='pagelink' href="/archives/">博客</a>
+<a class='pagelink' href="/categories/">分类</a>
+<a class='pagelink' href="/tags/">标签</a>
+<a class='pagelink' href="/about/">关于</a>
+      </nav>
+  </header>
+
+  <div id="page">
+    {{ content }}
+  </div>
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}</p>
+  </footer>
+</body>
+</html>

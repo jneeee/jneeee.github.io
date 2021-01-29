@@ -1,7 +1,8 @@
 ---
-layout: mypost
+layout: post
 title: ELB 会话保持测试方法
-categories: OpenStack
+categories: 工作
+tags: OpenStack
 ---
 前提：
 * 至少两个后端member

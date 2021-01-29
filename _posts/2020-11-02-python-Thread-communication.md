@@ -1,7 +1,7 @@
 ---
-layout: mypost
+layout: post
 title: Python中的线程通信
-categories: python
+categories: 代码
 ---
 
 题目起的宽了，心有点虚。放个链接吧 [Python 多线程threading][1]
