@@ -1,8 +1,13 @@
 ---
+published: true
+title: python中的线程通信
 layout: post
-title: Python中的线程通信
-categories: 代码
+author: Jn
+category: 电脑
+tags: 
+- python
 ---
+
 
 题目起的宽了，心有点虚。放个链接吧 [Python 多线程threading][1]
 多线程编程必须操作int str等变量的话只能加锁。如果是计数的需求，**Python的list.append list.pop是线程安全的**。因此可以用list.append('type1') 这种来计数，使用list.count(type1)来达到计数目的。

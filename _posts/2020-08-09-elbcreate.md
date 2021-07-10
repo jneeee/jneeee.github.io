@@ -1,8 +1,11 @@
 ---
-layout: post
+published: true
 title: neutron命令行创建ELB全流程命令
-categories: 工作
-tags: OpenStack
+layout: post
+author: Jn
+category: 电脑
+tags: 
+- neutron
 ---
 
 创建的LB如果不指定tenant_id console上面是看不到的，以下命令大部分都能指定租户ID：`--tenant_id 9fbf9f44b8e44cd19933ac1fd9b30f49`，这个ID是console上面的**项目ID**，两种查看方法：

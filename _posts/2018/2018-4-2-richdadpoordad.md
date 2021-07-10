@@ -1,8 +1,13 @@
 ---
-layout: post
+published: true
 title: 读《Rich Dad Poor Dad》
-categories: 阅读
+layout: post
+author: Jn
+category: 阅读
+tags: 
 ---
+
+
 这本书以作者采访的形式，写出主人公“奇特”的人生经历，启发读者对`self economic`,`socio economic`的思考。
 > According to Robert ,chidren spend years in an antiquated educational system, studying subjects theywill never use, preparing for a world that no longer exists.
 

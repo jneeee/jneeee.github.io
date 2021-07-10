@@ -1,8 +1,11 @@
 ---
+published: true
+title: 欧拉安装使用docker
 layout: post
-title: euler安装使用docker
-categories: [代码]
-tags: docker
+author: Jn
+category: 电脑
+tags: 
+- docker
 ---
 
 virtualbox配置两个网卡：一个NAT，一个主机网络

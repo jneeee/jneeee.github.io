@@ -1,21 +1,24 @@
 ## jneee's blog
 
 Jneee 的个人主页
-Theme TeXt and host by github.com
+Theme freshman21 and host by github.com
 
 ### 文章格式
 ```yaml
----
+--- 
+published: true
+title: Père David's deer 
 layout: post
-title: emoji 功能測試
-categories: [代码]
-tags: emoji
+author: Jn
+category: articles
+tags: 
+- tag1
+- tag2
 ---
 ```
 ### 当前分类
 
 游戏
 生活
-代码
-工作
+电脑
 阅读

@@ -1,8 +1,13 @@
 ---
+published: true
+title: python requests学习
 layout: post
-title: requests 学习
-categories: 代码
+author: Jn
+category: 电脑
+tags: 
+- python
 ---
+
 用`requests`可以做一个功能完整强大的爬虫。用webide平台可以帮我直接测试它，非常方便   
 重要学习参考 [Requests 的一些高级特性](http://docs.python-requests.org/zh_CN/latest/user/advanced.html#advanced)  
 ubantu 14.0安装requests的步骤

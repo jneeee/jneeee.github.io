@@ -1,9 +1,13 @@
 ---
+published: true
+title: 从计算节点向虚机拷贝文件的方法
 layout: post
-title: 从host向虚机拷贝文件的方法
-categories: 工作
-tags: OpenStack
+author: Jn
+category: 电脑
+tags: 
+- nova
 ---
+
 > 遇到没有eip的虚机或者是“假的”eip虚机，需要拷贝tcpdump过去的时候，可以尝试从host的名空间向其拷贝，方法和名空间登录虚机类似。
 
 1. 首先找到虚机的id `nova list --all-t|grep [vm name]`

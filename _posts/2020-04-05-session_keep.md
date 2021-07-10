@@ -1,9 +1,13 @@
 ---
+published: true
+title: ELB会话保持测试方法
 layout: post
-title: ELB 会话保持测试方法
-categories: 工作
-tags: OpenStack
+author: Jn
+category: 电脑
+tags: 
+- elb
 ---
+
 前提：
 * 至少两个后端member
 * 会话保持类型 HTTP cookie 会话保持

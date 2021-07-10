@@ -1,8 +1,13 @@
 ---
+published: true
+title: GIT常用命令
 layout: post
-title: Git 版本控制常用命令
-categories: 代码
+author: Jn
+category: 电脑
+tags: 
+- git
 ---
+
 > 整理工作场景下常用的git命令
 
 ## 一、基本命令
