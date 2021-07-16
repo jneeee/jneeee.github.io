@@ -23,4 +23,4 @@ permalink: /about/
 - GitHub : [github.com/jneee](https://github.com/jneee)
 
 
-> 博客托管于<q>GitHub Page</q>
+博客托管于<q>GitHub Page</q>
