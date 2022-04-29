@@ -90,7 +90,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-  max-width: 100%;
+  max-width: 90%;
   vertical-align: middle;
 }
 
@@ -129,7 +129,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: bold;
 }
 
 
@@ -177,7 +177,7 @@ blockquote{
   border: 2px dashed #d0dfda;
   border-radius: 5px;
   color: $grey-color;
-  font-size: 18px;
+  font-size: $small-font-size;
   background: #f9f9f9;
 
   &:hover {
@@ -207,7 +207,7 @@ code {
 
 pre {
   padding: 8px 12px;
-  overflow: auto; 
+  overflow: auto;
 
   > code {
     border: 0;

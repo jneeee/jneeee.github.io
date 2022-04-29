@@ -19,6 +19,7 @@ cat /proc/sys/net/ipv4/tcp_keepalive_intvl
 cat /proc/sys/net/ipv4/tcp_keepalive_probes
 ```
 type1 8.0 已加入超时发送 Reset 包的机制。`[R.]`对长链接业务的影响？
+
 ## 二、解决办法
 在两个server上修改tcp_keepalive_time的值<300。
 修改 /etc/sysctl.conf 的全局配置：
@@ -27,11 +28,13 @@ net.ipv4.tcp_keepalive_time=200
 net.ipv4.tcp_keepalive_intvl=75
 net.ipv4.tcp_keepalive_probes=9
 ```
-执行如下命令使其生效：
+
+使其生效：
 ```shell
 sysctl –p
 ```
-使用如下命令查询参数的值：
+
+查询内存中参数的值：
 ```shell
 sysctl -a | grep keepalive
 ```
@@ -61,6 +64,4 @@ KeepAlive通过定时发送探测包来探测连接的对端是否存活， 但�
 
 参考：
 https://blog.biezhi.me/2017/08/talk-tcp-keepalive.html
-
-
 

@@ -3,6 +3,10 @@
 Jneee 的个人主页
 Theme freshman21 and host by github.com
 
+theme demo:  
+![](img/2021/front_page.png)
+
+
 ### 文章格式
 ```yaml
 --- 

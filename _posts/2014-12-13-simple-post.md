@@ -5,19 +5,21 @@ excerpt: "Just about everything you'll need to style in the theme: headings, par
 categories: articles
 comments: true
 ---
+kramdown markdown解析器的语法介绍
+https://kramdown.gettalong.org/quickref.html
 
-* Table of Contents
 {:toc}
-
 
 This is a sample post.
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
+## 1 目录
+```
+{:toc}
+```
 
-
-
-## Heading
+## 2 Heading
 
 ~~~
 # Heading 1
@@ -31,7 +33,7 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 
 
-## Body text
+## 3 Body text
 
 **This is strong**.
 
@@ -50,7 +52,7 @@ The New York Times <cite>(That’s a citation)</cite>.
 
 <del>HTML and CSS are our tools</del>. 
 
-## Blockquotes
+## 4 Blockquotes
 
 > Justification:
 > This species is listed as Extinct in the Wild, as all populations are still under captive management. The captive population in China has increased in recent years, and the possibility remains that free-ranging populations can be established some time in the near future. When that happens, its Red List status will need to be reassessed. 
@@ -60,9 +62,9 @@ The New York Times <cite>(That’s a citation)</cite>.
 
 
 
-## List Types
+## 5 List Types
 
-### Ordered Lists
+### 5.1 Ordered Lists
 
 1. Item one
    1. sub item one
@@ -70,7 +72,7 @@ The New York Times <cite>(That’s a citation)</cite>.
    3. sub item three
 2. Item two
 
-### Unordered Lists
+### 5.2 Unordered Lists
 
 * Item one
 * Item two
@@ -90,7 +92,7 @@ The New York Times <cite>(That’s a citation)</cite>.
 |ANIMALIA|CHORDATA|MAMMALIA|CETARTIODACTYLA|CERVIDAE|
 
 
-## Code Snippets
+## 6 Code Snippets
 
 Syntax highlighting via Pygments
 
@@ -103,7 +105,7 @@ Syntax highlighting via Pygments
 {% endhighlight %}
 
 
-#### highlight with line number.
+### 6.1 highlight with line number.
 
 {% highlight ruby linenos  %}
 def foo
@@ -112,7 +114,7 @@ end
 {% endhighlight %}
 
 
-#### highlight using triple backticks
+### 6.2 highlight using triple backticks
 
 ```r
 a=1:10
@@ -120,20 +122,55 @@ for(i in a)
 {
   print(i)
 }
-
-
 ```
 
-## $$\LaTeX$$ 
+## 7 $$\LaTeX$$ 
 
 you can use latex with <q>double $$ </q>
 
 $$e^{i\pi}+1=0$$
 
 
-## \<q\> tag
+## 8 \<q\> tag
 
-here is a \<q\> q tag \</q\>
-
-
+```
 here is a <q> q tag </q>
+```
+here is a <q> q tag </q>
+
+## 9 tips
+
+\```tips
+This is a tip
+\```
+
+```tips
+This is a tip
+```
+
+## 10 缩写
+
+This is an HTML example.
+
+*[HTML]: Hyper Text Markup Language
+
+```
+*[HTML]: Hyper Text Markup Language
+```
+这里`HTML`应该会全篇搜索然后匹配关联
+
+## 11 脚注
+
+```
+This is a text with a footnote[^2].
+
+[^2]:
+    And here is the definition.
+    > With a quote!
+```
+
+This is a text with a footnote[^2].
+
+[^2]:
+    And here is the definition.
+    > With a quote!
