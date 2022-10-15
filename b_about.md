@@ -36,4 +36,4 @@ permalink: /about/
 ### 朋友
 * [BRAVE NEW WORLD](http://junphy.com/)
 
-博客托管于 <q>GitHub Page</q>
+网站托管于 <q>GitHub Page</q>

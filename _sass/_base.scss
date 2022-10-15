@@ -170,7 +170,6 @@ a {
 /**
  * Blockquotes
  */
-
 blockquote{
   padding: 0 1em;
   margin: 14px 0;
@@ -190,19 +189,21 @@ blockquote{
 }
 
 
-
 /**
  * Code formatting
  */
 pre,code {
-  font-size: 15px;
+  font-size: $small-font-size;
   border-radius: 3px;
   background-color: $code-backgroud-color;
   color: $code-font-color;
 }
 
 code {
-  padding: 1px 5px;
+  font-size: $small-font-size;
+  color: #e83e8c;
+  background-color: #f6f6f6;
+  padding: 0 5px;
 }
 
 pre {
@@ -211,11 +212,10 @@ pre {
 
   > code {
     border: 0;
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0 0px;
+    color: $code-font-color;
   }
 }
-
 
 
 /**
