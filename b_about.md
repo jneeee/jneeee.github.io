@@ -5,7 +5,7 @@ comments: yes
 permalink: /about/
 ---
 
-> Hello, 欢迎访问 jneee.github.io
+> Hello, 欢迎访问 jneeee.github.io
 
 ### 工作相关
 目前致力 `Openstack` 二次开发
@@ -31,7 +31,7 @@ permalink: /about/
 ### 联系我
 
 - Email : jneeee@qq.com
-- GitHub : [github.com/jneee](https://github.com/jneee)
+- GitHub : [github.com/jneeee](https://github.com/jneeee)
 
 ### 朋友
 * [BRAVE NEW WORLD](http://junphy.com/)
