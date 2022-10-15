@@ -1,11 +1,11 @@
 ---
 published: true
-title: python requests学习
+title: Python requests学习
 layout: post
 author: Jn
 category: 电脑
 tags: 
-- python
+- Python
 ---
 
 用`requests`可以做一个功能完整强大的爬虫。用webide平台可以帮我直接测试它，非常方便   

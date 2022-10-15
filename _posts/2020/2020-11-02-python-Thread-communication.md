@@ -1,11 +1,11 @@
 ---
 published: true
-title: python中的线程通信
+title: Python 中的线程通信
 layout: post
 author: Jn
 category: 电脑
 tags: 
-- python
+- Python
 ---
 
 

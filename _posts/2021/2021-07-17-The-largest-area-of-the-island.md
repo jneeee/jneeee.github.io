@@ -5,7 +5,7 @@ layout: post
 author: Jn
 category: 电脑
 tags: 
-- python
+- Python
 - leetcode
 ---
 
