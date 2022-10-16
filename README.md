@@ -19,6 +19,7 @@ menu:
   sidebar:
     name: Menus
     parent: docs
+type: page
 ---
 
 分类：工作、生活
