@@ -1,9 +1,8 @@
 ---
-published: true
+date: 2022-10-15
 title: Python 的闭包
-layout: post
 author: Jn
-category: work
+categories: 工作
 tags: 
 - Python
 ---

@@ -1,11 +1,10 @@
 ---
-published: true
+date: 2022-01-14
 title: 我的 Vscode 配置
-layout: post
 author: Jn
-category: work
+categories: 工作
 tags: 
-- vscode
+- Tools
 ---
 记录使用vscode时的一些插件和配置文件。
 

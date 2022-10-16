@@ -10,6 +10,7 @@ categories:
   - features
 tags:
   - menus
+draft: false
 description: asd
 # url
 slug: menus
