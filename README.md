@@ -1,0 +1,23 @@
+一个程序员的个人博客，地址：jneeee.netlify.app
+
+Hugo 的关键字模板
+---
+date: 2017-09-27T10:00:00+06:00
+lastmod: 2018-05-24T02:10:00+06:00
+title: Menus Setup Guide
+authors: ["Jneeee"]
+categories:
+  - features
+tags:
+  - menus
+description: asd
+# url
+slug: menus
+toc: true
+menu:
+  sidebar:
+    name: Menus
+    parent: docs
+---
+
+

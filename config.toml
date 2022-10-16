@@ -53,10 +53,13 @@ hideMainMenu = true
 [params.sidebar]
 enable = true
 
+[sidebar_menu]
+mirror = "main"
+
 [params.widgets]
 header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about","sidebar_menu","taxonomy_cloud","search"]
 footer = ["social_menu"]
 
 [params.opengraph.facebook]
@@ -128,11 +131,6 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
-[[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/jneeee/jneeee.github.io"
 
 [blackfriday]
 hrefTargetBlank = true
