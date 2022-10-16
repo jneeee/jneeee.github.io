@@ -1,12 +1,10 @@
 ---
-published: true
+date: 2021-07-17
 title: 695.岛屿的最大面积
-layout: post
 author: Jn
-category: 电脑
+categories: 工作
 tags: 
 - Python
-- leetcode
 ---
 
 题目：https://leetcode-cn.com/problems/max-area-of-island/

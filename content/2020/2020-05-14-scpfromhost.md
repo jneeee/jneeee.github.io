@@ -1,10 +1,10 @@
 ---
-published: true
+date: 2020-05-14
 title: 从计算节点向虚机拷贝文件的方法
-layout: post
 author: Jn
-category: 电脑
+categories: 工作
 tags: 
+- openstack
 - nova
 ---
 

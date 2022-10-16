@@ -1,11 +1,8 @@
 ---
-published: true
-title: 各种图的用处整理（Markdown Typora）
-layout: post
+date: 2021-12-15
+title: 各种流程图的用处整理（Markdown Typora）
 author: Jn
-category: work
-tags: 
-- typora
+categories: 工作
 ---
 
 > 刚跳槽还是轻松啊，加上本身新公司压力小，可以花时间（work time）学 ansible，之后 knowledge sharing 阶段需要做个PPT，里面的图学一下用typora画，语法后面应该都能用到。

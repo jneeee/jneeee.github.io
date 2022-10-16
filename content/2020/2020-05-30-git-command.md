@@ -1,9 +1,7 @@
 ---
-published: true
-title: GIT常用命令
-layout: post
+title: Git 常用命令
 author: Jn
-category: 电脑
+categories: 工作
 tags: 
 - git
 ---

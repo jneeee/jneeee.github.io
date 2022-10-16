@@ -1,11 +1,10 @@
 ---
-published: true
+date: 2021-05-07
 title: 欧拉安装使用docker
-layout: post
 author: Jn
-category: 电脑
 tags: 
-- docker
+- Docker
+categories: 工作
 ---
 
 virtualbox配置两个网卡：一个NAT，一个主机网络

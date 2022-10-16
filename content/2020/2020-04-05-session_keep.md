@@ -1,11 +1,11 @@
 ---
-published: true
-title: ELB会话保持测试方法
-layout: post
+date: 2020-04-05
+title: ELB 会话保持测试方法
 author: Jn
-category: 电脑
+categories: 工作
 tags: 
-- elb
+- OpenStack
+- Neutron
 ---
 
 前提：

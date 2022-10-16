@@ -1,11 +1,8 @@
 ---
-published: true
-title: LOL喷子太影响游戏体验
-layout: post
+date: 2018-03-04
+title: LOL 喷子太影响游戏体验
 author: Jn
-category: 游戏
-tags: 
-- lol
+categories: 生活
 ---
 
 

@@ -1,9 +1,8 @@
 ---
-published: true
+date: 2020-11-02
 title: Python 中的线程通信
-layout: post
 author: Jn
-category: 电脑
+categories: 工作
 tags: 
 - Python
 ---

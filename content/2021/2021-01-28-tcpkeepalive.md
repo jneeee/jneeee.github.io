@@ -1,11 +1,10 @@
 ---
-published: true
+date: 2021-01-28
 title: TCP 中的 KeepAlive 机制
-layout: post
 author: Jn
-category: 电脑
+categories: 工作
 tags: 
-- TCP
+- network
 ---
 
 
