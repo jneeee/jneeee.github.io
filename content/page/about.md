@@ -12,7 +12,7 @@ slug: about
 
 * Work
     * [Python 标准库](https://docs.python.org/zh-cn/3.6/library/index.html)
-    * [leetbook](https://leetcode-cn.com/leetbook/)
+    * [Leetbook](https://leetcode-cn.com/leetbook/)
     * [多线程 threading - 刘江的博客教程](https://www.liujiangblog.com/course/python/79)
     * [IBM Linux 教程](https://developer.ibm.com/zh/technologies/linux/tutorials)
     * [SDN handbook](https://tonydeng.github.io/sdn-handbook/)
@@ -28,4 +28,4 @@ slug: about
 ### 朋友
 * [BRAVE NEW WORLD](http://junphy.com/)
 
-网站托管于 <q>Netlify</q>
+网站托管于 Github + <q>Netlify</q>
