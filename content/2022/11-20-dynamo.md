@@ -1,0 +1,59 @@
+---
+date: 2022-11-20
+title: aws dynamodb python boto3 调用方法
+author: Jn
+categories: 工作
+tags: 
+- aws
+- dynamo
+---
+
+`dynamodb = boto3.resource('dynamodb')` 是boto3 的高级接口，更底层的有：
+```python
+import boto3
+
+dynamodb_client = boto3.client('dynamodb')
+res = dynamodb_client.list_tables()
+```
+
+高级接口调用参考如下，其中 'id' 是我设置的主键，没设置排序键：
+```python
+import time
+import logging
+
+import boto3
+
+LOG = logging.getLogger(__name__)
+
+
+class Tableclient():
+    def __init__(self, tablename) -> None:
+        dynamodb = boto3.resource('dynamodb')
+        self.table = dynamodb.Table(tablename)
+
+    def get(self, item):
+        # item: dict{'id': key}
+        if not isinstance(item, dict):
+            return False
+        resp = None
+        try:
+            resp = self.table.get_item(Key=item).get("Item")
+        except Exception as e:
+            LOG.error(e)
+        return resp
+
+    def delete(self, item):
+        # item: dict{'id': key}
+        if not isinstance(item, dict):
+            return False
+        self.table.delete_item(Item=item)
+
+    def put_item(self, item):
+        # item: dict{'id': id, 'value': value}
+        if not isinstance(item, dict):
+            return False
+        self.table.put_item(Item=item)
+        LOG.info(f'Put_item: {item}')
+```
+
+> 参考 https://maku.blog/p/wht5epz/
