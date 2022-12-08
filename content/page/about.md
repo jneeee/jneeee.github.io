@@ -3,7 +3,7 @@ title: 关于
 menu:
   - sidebar
 weight: 100
-slug: about
+slug: about.html
 ---
 
 这是一个程序员的博客。我在云计算领域工作，主要编程语言是 Python。
@@ -22,7 +22,7 @@ slug: about
 * Life
     * docs.qq.com
     * weread.qq.com
-    * magi.com
+    * magi.com 2022-12-8 21:28:38 官网暂停使用
     * magnetv.cn 磁力播放/下载 2020年5月11日19:06:00
 
 ### 朋友
