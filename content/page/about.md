@@ -19,6 +19,7 @@ slug: about.html
     * [WSL](https://docs.microsoft.com/en-us/windows/wsl/) 微软出品在 Windows 上运行 Linux，“双系统杀手”
     * [Google Engineering Practices Documentation](https://google.github.io/eng-practices/)
     * [程序员专用羊毛](https://github.com/ripienaar/free-for-dev)
+    * [Azure for Python Developers][1]
 * Life
     * docs.qq.com
     * weread.qq.com
@@ -29,3 +30,7 @@ slug: about.html
 * [BRAVE NEW WORLD](http://junphy.com/)
 
 网站托管于 Github + <q>Netlify</q>
+
+
+[1]: https://learn.microsoft.com/en-us/azure/developer/python/ 'Azure for Python Developers'
+
