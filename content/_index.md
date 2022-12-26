@@ -4,5 +4,3 @@ menu:
   - sidebar
 weight: 10
 ---
-
-> Coming...

@@ -7,10 +7,6 @@ date: 2017-09-27T10:00:00+06:00
 lastmod: 2018-05-24T02:10:00+06:00
 title: Menus Setup Guide
 authors: ["Jneeee"]
-categories:
-  - features
-tags:
-  - menus
 draft: false
 description: asd
 # url
@@ -21,6 +17,13 @@ menu:
     name: Menus
     parent: docs
 type: page
+# 下面是三种自带的归类类型。系列：
+series: xxx
+# 标签
+tags:
+  - menus
+categories:
+  - features
 ---
 ```
 
