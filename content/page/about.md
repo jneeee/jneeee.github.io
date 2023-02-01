@@ -28,7 +28,7 @@ slug: about.html
 ### 朋友
 * [BRAVE NEW WORLD](http://junphy.com/)
 
-网站托管于 Github + <q>Netlify</q>
+网站托管于 Github + <q>Netlify</q> + [minimo](https://github.com/MunifTanjim/minimo)
 
 
 [1]: https://learn.microsoft.com/en-us/azure/developer/python/ 'Azure for Python Developers'

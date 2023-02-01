@@ -3,6 +3,8 @@ date: 2022-10-22
 title: 不要用 'functools.lru_cache' 装饰一个实例方法
 author: Jn
 series: Python
+tags:
+  - Python
 ---
 
 原文链接: https://rednafi.github.io/reflections/dont-wrap-instance-methods-with-functoolslru_cache-decorator-in-python.html
