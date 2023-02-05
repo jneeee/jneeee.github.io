@@ -127,7 +127,7 @@ series = "series"
 tag = "tags"
 
 [permalinks]
-page = "/:slug/"
+page = "/:slug"
 
 
 [blackfriday]
