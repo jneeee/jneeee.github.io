@@ -35,7 +35,7 @@ nova flavor-key 22 set hw:mem_page_size=1048576
 
 ### 3. 放通安全组
 默认安全组已放通出方向流量，只用加个入方向。安全组id用 neutron port-show <vm_port> 查看
-![](http://3ms.huawei.com/hi/index.php?app=home&mod=Attach&act=showTempImage&filename=20200813032142145001m378.png)
+![](xxx)
 
 1. neutron security-group-rule-create --direction ingress --remote-ip-prefix 0.0.0.0/0 **net_id**
 2. neutron security-group-rule-create --direction ingress --remote-ip-prefix ::/0 --ethertype ipv6 **net_id**

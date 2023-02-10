@@ -1,5 +1,5 @@
-baseURL = "https://jneeee.netlify.app"
-title = "Jn's note"
+baseURL = "https://blog.grav.cn"
+title = "万有引力"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -46,19 +46,19 @@ showReadingTime = true
 showLastmod = true
 taxonomyCloudShuffle = true
 accentColor = "#ffcd00"
-hideMainMenu = true
+# hideMainMenu = true
 
 [params.sidebar]
-enable = true
+enable = false
 
 [sidebar_menu]
 mirror = "main"
 
 [params.widgets]
-header = ["breadcrumbs"]
+# header = ["breadcrumbs"]
 homepage = ["recent_posts"]
 sidebar = ["about","sidebar_menu","taxonomy_cloud","search"]
-footer = ["social_menu"]
+footer = ["social_menu", "search"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -86,31 +86,18 @@ github = "Jneeee"
 # youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
-enable = false
-
-# Isso: https://posativ.org/isso/
-[params.comments.isso]
-enable = false
-scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
-
-[params.comments.staticman]
-enable = false
-apiEndpoint = "https://api.staticman.net/v2/entry"
-maxDepth = 2
-username = "MunifTanjim"
-repository = "minimo"
+enable = true
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
-enable = false
+enable = true
 issueTerm = "pathname" # pathname / url / title / og:title / <string>
 label = ""
 theme = "github-light"
 
 [params.comments.utterances.github]
 username = "jneeee"
-repository = "jneeee.github.io"
+repository = "blog"
 
 [params.search]
 client = "fuse" # algolia / fuse / lunr
@@ -128,7 +115,7 @@ tag = "tags"
 
 [permalinks]
 page = "/:slug"
-
+post = "/:year/:month/:title/index.html"
 
 [blackfriday]
 hrefTargetBlank = true

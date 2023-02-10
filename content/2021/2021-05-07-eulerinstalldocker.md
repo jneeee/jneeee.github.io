@@ -13,10 +13,10 @@ virtualbox配置两个网卡：一个NAT，一个主机网络
 ## 1 配置代理
 ```
 #系统代理
-export http_proxy=http://域账号:密码@proxy.huawei.com:8080
+export http_proxy=http://域账号:密码@proxy.xxxxxx.com:8080
 export no_proxy='*.huawei.com,127.0.0.1,192.168.*'
 #Git 代理
-git config --global http.proxy http://域账号:密码@proxy.huawei.com:8080
+git config --global http.proxy http://域账号:密码@proxy.xxxxxx.com:8080
 ```
 
 ## 2 配置yum镜像

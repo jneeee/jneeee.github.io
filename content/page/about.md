@@ -1,12 +1,14 @@
 ---
 title: 关于
 menu:
-  - sidebar
+  - main
 weight: 100
-slug: about.html
+slug: about
 ---
 
 这是一个程序员的博客。我在云计算领域工作，主要编程语言是 Python。偶尔写一些 [OpenStack](/tags/openstack/) 相关的内容，偶尔翻译一些 [Python](/tags/python/) 技术文档。
+
+我还写了个[个人任务助手][2]，部署在 AWS Lambda
 
 ### 网站推荐
 
@@ -32,4 +34,4 @@ slug: about.html
 
 
 [1]: https://learn.microsoft.com/en-us/azure/developer/python/ 'Azure for Python Developers'
-
+[2]: https://demo.taskbox.cn

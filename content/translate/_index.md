@@ -1,7 +1,7 @@
 ---
 title: 翻译
 menu:
-  - sidebar
+  - main
 weight: 90
 ---
 
