@@ -1,5 +1,5 @@
 baseURL = "https://blog.grav.cn"
-title = "万有引力"
+title = "Grav万有引力"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -16,17 +16,17 @@ enableRobotsTXT = true # generate robots.txt
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
 
-enableEmoji = true
+enableEmoji = false
 
 # Missing translations will default to this content language
 defaultContentLanguage = "zh"
 
 [params.info]
-description = "Note for Life"
-title404 = "Nothing's here!"
+description = "一个普通人的博客 Note for Life"
+title404 = "Nothing is here!"
 
 [params.assets]
-favicon = "favicon.ico"
+favicon = "/img/icon.png"
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
