@@ -4,15 +4,18 @@ title: Python requests学习
 author: ['Jn']
 categories: 工作
 tags: ['python']
+description: 学习 Python 梦开始的地方
 ---
 
-用`requests`可以做一个功能完整强大的爬虫。用webide平台可以帮我直接测试它，非常方便   
+用 `requests` 可以做一个功能完整强大的爬虫。用webide平台可以帮我直接测试它，非常方便
 重要学习参考 [Requests 的一些高级特性](http://docs.python-requests.org/zh_CN/latest/user/advanced.html#advanced)  
+
 ubantu 14.0安装requests的步骤
 ```bash
 sudo apt-get install python-pip
 pip install requests
 ```
+
 简单的动手
 ```python
 >>> url = 'http://baidu.com'
@@ -23,7 +26,9 @@ pip install requests
 >>> s.cookies
 <RequestsCookieJar[]>
 ```
-调取一个GitHub api 。
+
+
+调取一个GitHub api
 ```python
 # -*- coding: utf-8 -*-
 """
@@ -40,7 +45,10 @@ commit_data = r.json()
 
 print "heys:",commit_data.keys()
 ```
+
+
 ## 关于douban发广播爬虫
+
 以前写过一个自己登陆douban再发广播的，没成功。因为验证码的问题。这次直接使用cookies，一次搞定！code：
 ```python
 # -*- coding: utf-8 -*-
