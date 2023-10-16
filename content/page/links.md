@@ -6,14 +6,10 @@ weight: 40
 slug: links
 ---
 
-### 朋友
-* [BRAVE NEW WORLD](http://junphy.com/)
-
-
-### 网站推荐
+### 书签
 
 * 程序员相关
-    * [Python 标准库](https://docs.python.org/zh-cn/3.6/library/index.html)
+    * [Python 标准库](https://docs.python.org/zh-cn/3.12/library/index.html)
     * [Leetbook](https://leetcode-cn.com/leetbook/)
     * [摸鱼神器](https://thief.im/)
     * [多线程 threading - 刘江的博客教程](https://www.liujiangblog.com/course/python/79)
@@ -28,6 +24,9 @@ slug: links
     * weread.qq.com
     * magnetv.cn 磁力播放/下载 2020年5月11日19:06:00.
     * 电子书下载 https://sobooks.net/ 用了好几年了。
+
+### 朋友
+* [BRAVE NEW WORLD](http://junphy.com/)
 
 * 其他书签
   * maintao.com 博客很素，坚持了很多年...
