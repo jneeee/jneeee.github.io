@@ -22,7 +22,7 @@ enableEmoji = false
 defaultContentLanguage = "zh"
 
 [params.info]
-description = "一个普通人的博客 Note for Life"
+description = "一个程序员的博客 Note for Life"
 title404 = "Nothing is here!"
 
 [params.assets]
