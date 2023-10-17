@@ -90,7 +90,7 @@ enable = true
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
-enable = true
+enable = false
 issueTerm = "pathname" # pathname / url / title / og:title / <string>
 label = ""
 theme = "github-light"
@@ -100,7 +100,7 @@ username = "jneeee"
 repository = "blog"
 
 [params.search]
-client = "fuse" # algolia / fuse / lunr
+client = "lunr" # algolia / fuse / lunr
 
 [params.search.algolia]
 appId = ""
