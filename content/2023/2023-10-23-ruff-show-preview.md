@@ -1,0 +1,30 @@
+---
+date: 2023-10-23
+title: 解决 ruff 不显示 E231
+author: Jn
+categories: 工作
+tags:
+  - python
+---
+
+ruff 实现了 flake8 的 lint 规则，并且得益于 Rust 语言，速度比 flake8 等快多了。
+但我的ruff 明明配了 select=["E"] 却不检测：
+```
+Missing whitespace after ','
+```
+需要配置 `preview = true`，因为它实现的 E 规则现在大多是预览版
+```
+# Enable flake8-bugbear (`B`) rules.
+# https://beta.ruff.rs/docs/rules/
+select = ["E", "F", "B"]
+preview = true
+
+# Never enforce `E501` (line length violations).
+ignore = ["E501"]
+
+extend-exclude = [
+    "envs",
+]
+cache-dir = "/code/.cache/ruff"
+```
+select 后面直接写明 `E231` 也行。
