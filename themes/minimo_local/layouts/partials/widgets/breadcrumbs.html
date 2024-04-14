@@ -1,6 +1,6 @@
 {{- $defaultConfig := .Site.Data.config.default.widgets.breadcrumbs -}}
 {{- $configData := ( or .Site.Data.config.widgets.breadcrumbs $defaultConfig ) -}}
-{{- $lang := .Site.Language.Lang -}}
+{{- $lang := .Site.Params.Lang -}}
 {{- $config := ( ( index $configData $lang ) | default $configData ) -}}
 
 {{- define "breadcrumbs_add_parents" -}}

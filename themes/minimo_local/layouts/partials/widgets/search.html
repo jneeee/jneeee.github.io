@@ -1,6 +1,6 @@
 {{- $defaultConfig := .Site.Data.config.default.widgets.search -}}
 {{- $configData := ( or .Site.Data.config.widgets.search $defaultConfig ) -}}
-{{- $lang := .Site.Language.Lang -}}
+{{- $lang := .Site.Params.Lang -}}
 {{- $config := ( ( index $configData $lang ) | default $configData ) -}}
 
 <section class='widget widget-search sep-after'>

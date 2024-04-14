@@ -28,8 +28,7 @@ params:
    prefix: ""
    holder: "Jneeee"
    startYear: "2018"
-   suffix: |
-     [皖ICP备2023005335号-1](https://beian.miit.gov.cn/)
+   suffix: "[皖ICP备2023005335号-1](https://beian.miit.gov.cn/)"
 
  settings:
    # date & time format: https://golang.org/pkg/time/
@@ -112,9 +111,6 @@ taxonomies:
 permalinks:
  page: "/:slug"
  post: "/:year/:month/:title/index.html"
-
-blackfriday:
- hrefTargetBlank: true
 
 languages:
  zh:

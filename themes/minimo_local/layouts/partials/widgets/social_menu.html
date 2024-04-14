@@ -4,7 +4,7 @@
 
 {{- $defaultConfig := .Site.Data.config.default.widgets.social_menu -}}
 {{- $configData := ( or .Site.Data.config.widgets.social_menu $defaultConfig ) -}}
-{{- $lang := .Site.Language.Lang -}}
+{{- $lang := .Site.Params.Lang -}}
 {{- $config := ( ( index $configData $lang ) | default $configData ) -}}
 
 <section class='widget widget-social_menu sep-after'>

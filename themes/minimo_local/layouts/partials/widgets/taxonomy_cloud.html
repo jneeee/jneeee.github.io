@@ -1,6 +1,6 @@
 {{- $defaultConfig := .Site.Data.config.default.widgets.taxonomy_cloud -}}
 {{- $configData := ( or .Site.Data.config.widgets.taxonomy_cloud $defaultConfig ) -}}
-{{- $lang := .Site.Language.Lang -}}
+{{- $lang := .Site.Params.Lang -}}
 {{- $config := ( ( index $configData $lang ) | default $configData ) -}}
 
 {{- $shuffle := ( $config.shuffle | default true ) -}}
