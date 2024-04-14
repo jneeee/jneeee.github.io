@@ -1,7 +1,5 @@
-baseURL = "https://blog.grav.cn"
+baseURL = "https://grav.cn"
 title = "Grav万有引力"
-# for smart copyright line, leave this blank and check [params.copyright]
-copyright = ""
 
 theme = "minimo"
 
@@ -33,7 +31,9 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 prefix = ""
 holder = "Jneeee"
 startYear = "2018"
-suffix = ""
+suffix = """
+[皖ICP备2023005335号-1](https://beian.miit.gov.cn/)
+"""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
