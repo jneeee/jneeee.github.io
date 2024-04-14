@@ -1,0 +1,124 @@
+baseURL: "https://grav.cn"
+title: "Grav万有引力"
+
+theme: "minimo_local"
+disqusShortname: ""
+googleAnalytics: ""
+Paginate: 8
+preserveTaxonomyNames: true
+enableRobotsTXT: true
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences: true
+enableEmoji: false
+
+# Missing translations will default to this content language
+defaultContentLanguage: "zh"
+
+params:
+ info:
+   description: "一个程序员的博客 Note for Life"
+   title404: "Nothing is here!"
+
+ assets:
+   favicon: "/img/icon.png"
+   gopher: ""  # used in 404 template ( Generator: https://gopherize.me )
+
+ copyright:
+   prefix: ""
+   holder: "Jneeee"
+   startYear: "2018"
+   suffix: |
+     [皖ICP备2023005335号-1](https://beian.miit.gov.cn/)
+
+ settings:
+   # date & time format: https://golang.org/pkg/time/
+   dateFormat: "2006, Jan 02"
+   listDateFormat: "2006, Jan 02"
+   archiveDateFormat: "Jan 02"
+   hideEntryNavigation: 
+     - "page"
+   hideEntryMeta:
+     - "page" 
+   showReadingTime: true
+   showLastmod: true
+   taxonomyCloudShuffle: true
+   accentColor: "#ffcd00"
+   # hideMainMenu: true
+
+ sidebar:
+   enable: false
+
+ sidebar_menu:
+   mirror: "main"
+
+ widgets:
+   # header: 
+   #   - "breadcrumbs"
+   homepage:
+     - "recent_posts"
+   sidebar:
+     - "about"
+     - "sidebar_menu"
+     - "taxonomy_cloud"
+     - "search"
+   footer:
+     - "social_menu"
+     - "search"
+
+ opengraph:
+   facebook:
+     admins: []
+     appID: ""
+     pageID: ""
+   twitter:
+     page: ""
+
+ seo:
+   titleSeparator: "•"
+
+ social:
+   email: "jneeee@outlook.com"
+   github: "jneeee"
+
+params:
+ comments:
+   enable: false
+
+   utterances:
+     enable: false
+     issueTerm: "pathname"
+     label: ""
+     theme: "github-light"
+
+     github:
+       username: "jneeee"
+       repository: "blog"
+
+ search:
+   client: "lunr"
+
+   algolia:
+     appId: ""
+     indexName: ""
+     searchApiKey: ""
+
+taxonomies:
+ author: "authors"
+ category: "categories" 
+ series: "series"
+ tag: "tags"
+
+permalinks:
+ page: "/:slug"
+ post: "/:year/:month/:title/index.html"
+
+blackfriday:
+ hrefTargetBlank: true
+
+languages:
+ zh:
+   languageName: "中文"
+   weight: 1
+   params:
+     lang: "zh"
