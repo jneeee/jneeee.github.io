@@ -4,9 +4,11 @@ title: "Grav万有引力"
 theme: "minimo_local"
 disqusShortname: ""
 googleAnalytics: ""
-Paginate: 8
 preserveTaxonomyNames: true
 enableRobotsTXT: true
+
+pagination:
+  pagerSize: 8
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences: true
@@ -26,7 +28,7 @@ params:
 
  copyright:
    prefix: ""
-   holder: "Jneeee"
+   holder: "Grav万有引力"
    startYear: "2018"
    suffix: "[皖ICP备2023005335号-1](https://beian.miit.gov.cn/)"
 
@@ -80,7 +82,6 @@ params:
    email: "jneeee@outlook.com"
    github: "jneeee"
 
-params:
  comments:
    enable: false
 

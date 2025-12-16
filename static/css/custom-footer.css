@@ -1,0 +1,55 @@
+/* Custom Copyright Footer - Only visible on homepage */
+.custom-copyright-footer {
+  width: 100%;
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 80vh; /* Push below the viewport, needs scroll to see */
+  background-color: transparent;
+  min-height: 20vh; /* Ensure there's content to scroll to */
+}
+
+.custom-copyright-text {
+  color: #888; /* Low contrast gray */
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0;
+  opacity: 0.65; /* Low contrast effect */
+  font-weight: 300;
+}
+
+.custom-copyright-text a {
+  color: #888;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.custom-copyright-text a:hover {
+  opacity: 0.9;
+  color: #666;
+  border-bottom: 1px solid #888;
+}
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Container styling */
+.custom-copyright-footer .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .custom-copyright-footer {
+    padding: 60px 15px;
+    margin-top: 70vh;
+  }
+  
+  .custom-copyright-text {
+    font-size: 12px;
+  }
+}
+
