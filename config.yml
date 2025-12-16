@@ -83,25 +83,25 @@ params:
    github: "jneeee"
 
  comments:
-   enable: false
+  enable: false
 
-   utterances:
-     enable: false
-     issueTerm: "pathname"
-     label: ""
-     theme: "github-light"
+  utterances:
+    enable: false
+    issueTerm: "pathname"
+    label: ""
+    theme: "github-light"
 
-     github:
-       username: "jneeee"
-       repository: "blog"
+    github:
+      username: "jneeee"
+      repository: "blog"
 
  search:
-   client: "lunr"
+  client: "fuse"
 
-   algolia:
-     appId: ""
-     indexName: ""
-     searchApiKey: ""
+  algolia:
+    appId: ""
+    indexName: ""
+    searchApiKey: ""
 
 taxonomies:
  author: "authors"
