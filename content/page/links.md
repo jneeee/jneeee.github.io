@@ -23,11 +23,12 @@ slug: links
     * docs.qq.com
     * weread.qq.com
     * magnetv.cn 磁力播放/下载 2020年5月11日19:06:00.
-    * 电子书下载 https://sobooks.net/ 用了好几年了。
+    * 电子书下载 https://sobooks.cc/ 用了好几年了。
 
 ### 朋友
 * [BRAVE NEW WORLD](http://junphy.com/)
 
-* 其他书签
+### 其他书签
   * maintao.com 博客很素，坚持了很多年...
   * [荒野无灯](https://ttys3.dev/) 从折腾斐讯路由器得知，见到真博客了
+

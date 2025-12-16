@@ -6,10 +6,15 @@ weight: 100
 slug: about
 ---
 
+Update at Dec 16, 2025 at 20:52
+
+2024年年初被优化，现在换到了AI赛道。
+
+---
+
 这是一个程序员的博客。我在云计算领域工作，主要编程语言是 Python。偶尔写一些 [OpenStack](/tags/openstack/) 相关的内容，偶尔翻译一些 [Python](/tags/python/) 技术文档。
 
 我还写了个[个人任务助手][2]，部署在 AWS Lambda
-
 
 网站托管于 Github + <q>Netlify</q> + [minimo](https://github.com/MunifTanjim/minimo)
 
