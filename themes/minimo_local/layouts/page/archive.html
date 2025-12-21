@@ -9,12 +9,24 @@
 {{ end }}
 
 <div class='container list-container'>
-  {{ range ( where .Site.RegularPages "Type" "ne" "page" ).GroupByDate "2006" }}
+  {{- $pages := where .Site.RegularPages "Section" "not in" (slice "page" "translate") -}}
+  {{ range $pages.GroupByDate "2006" }}
   <div class='archive-group sep-after'>
     <h3>{{ .Key }}</h3>
     <ul class='list'>
-      {{ range  .Pages }}
-        {{ .Render "li.archive" }}
+      {{ range .Pages.ByDate.Reverse }}
+        <li class='item'>
+          <div class='meta'>
+            {{ partial "list/date_archive" . }}
+          </div>
+          <header class='item-header'>
+            <h4 class='item-title'>
+              <a href='{{ .RelPermalink }}'>
+                {{- .Title -}}
+              </a>
+            </h4>
+          </header>
+        </li>
       {{ end }}
     </ul>
   </div>
