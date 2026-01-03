@@ -1,4 +1,4 @@
-一个程序员的个人博客，地址：jneeee.netlify.app
+Blog
 
 Hugo 的关键字模板
 ```yml
