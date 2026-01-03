@@ -6,11 +6,6 @@ weight: 100
 slug: about
 ---
 
-Update at Dec 16, 2025 at 20:52
-
-2024年年初被优化，现在换到了AI赛道。
-
----
 
 这是一个程序员的博客。我在云计算/AI领域工作，主要编程语言是 Python。偶尔写一些 [OpenStack](/tags/openstack/) 相关的内容
 
@@ -18,4 +13,4 @@ Update at Dec 16, 2025 at 20:52
 
 
 [1]: https://learn.microsoft.com/en-us/azure/developer/python/ 'Azure for Python Developers'
-[2]: https://demo.taskbox.cn
+[2]: https://github.com/jneeee/taskbox
