@@ -55,7 +55,7 @@ result = slow_adder.calculate(1, 2)
 end_time = time.perf_counter()
 print(f"Calculation took {end_time-start_time} seconds, result: {result}.")
 ```
-这里我创建了一个`SlowAdder`函数，接受一个参数`delay`，它会等待`delay`秒之后计算加法。为了防止方法重复计算导致变慢，用`lru_cache`方法装饰它。`__del__`方法可以告诉我们这个实例什么时候被回收。
+这里我创建了一个 `SlowAdder` 类，接受一个参数 `delay`，它会等待 `delay` 秒之后计算加法。为了防止方法重复计算导致变慢，用 `lru_cache` 方法装饰它。`__del__` 方法可以告诉我们这个实例什么时候被回收。
 
 这段代码运行结果如下：
 ```
@@ -64,7 +64,7 @@ Calculation took 2.0021052900010545 seconds, result: 3.
 Calculation took 5.632002284983173e-06 seconds, result: 3.
 Deleting instance ...
 ```
-可以看到`lru_cache`正常工作，第二次用同样参数调用`calculate`方法相比第一次时间减少了。在第二次运行时，lru装饰器直接在缓存字典里查找了返回值。但`ShowAdder`实例使用没有被内存回收。下一节来证明。
+可以看到 `lru_cache` 正常工作，第二次用同样参数调用 `calculate` 方法相比第一次时间减少了。在第二次运行时，lru 装饰器直接在缓存字典里查找了返回值。但 `SlowAdder` 实例使用没有被内存回收。下一节来证明。
 
 ### 垃圾回收无法清除被装饰的实例
 如果你用`-i`执行上面的代码，可以直观的看到没有垃圾回收gc运行过。

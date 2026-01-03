@@ -7,10 +7,10 @@ tags: ['python']
 description: 学习 Python 梦开始的地方
 ---
 
-用 `requests` 可以做一个功能完整强大的爬虫。用webide平台可以帮我直接测试它，非常方便
+用 `requests` 可以做一个功能完整强大的爬虫。用 webide 平台可以帮我直接测试它，非常方便。
 重要学习参考 [Requests 的一些高级特性](http://docs.python-requests.org/zh_CN/latest/user/advanced.html#advanced)  
 
-ubantu 14.0安装requests的步骤
+Ubuntu 14.0 安装 requests 的步骤
 ```bash
 sudo apt-get install python-pip
 pip install requests
@@ -47,9 +47,9 @@ print "heys:",commit_data.keys()
 ```
 
 
-## 关于douban发广播爬虫
+## 关于豆瓣发广播爬虫
 
-以前写过一个自己登陆douban再发广播的，没成功。因为验证码的问题。这次直接使用cookies，一次搞定！code：
+以前写过一个自己登陆豆瓣再发广播的，没成功。因为验证码的问题。这次直接使用 cookies，一次搞定！code：
 ```python
 # -*- coding: utf-8 -*-
 """
@@ -67,13 +67,13 @@ headers = {
 cookies = {
 }
 data = {
-'ck':'xxxx',
-'comment':'succese!成功！'
+'ck': 'xxxx',
+'comment': 'success!成功！'
 }
-#使用with 可以很好的结束会话
+# 使用 with 可以很好的结束会话
 with requests.Session() as s:
-    r = s.post(url,headers=headers,cookies=cookies,data=data)
-    print r.status_code #200为成功
-    
+    r = s.post(url, headers=headers, cookies=cookies, data=data)
+    print r.status_code  # 200 为成功
+
 print 'over!'
 ```
