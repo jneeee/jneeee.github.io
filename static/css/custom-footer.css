@@ -1,55 +1,116 @@
-/* Custom Copyright Footer - Only visible on homepage */
-.custom-copyright-footer {
-  width: 100%;
-  padding: 80px 20px;
-  text-align: center;
-  margin-top: 80vh; /* Push below the viewport, needs scroll to see */
-  background-color: transparent;
-  min-height: 20vh; /* Ensure there's content to scroll to */
+/* Footer 弱化样式 - 降低视觉权重 */
+.footer {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
 }
 
-.custom-copyright-text {
-  color: #888; /* Low contrast gray */
-  font-size: 13px;
-  line-height: 1.8;
-  margin: 0;
-  opacity: 0.65; /* Low contrast effect */
-  font-weight: 300;
+.footer:hover {
+  opacity: 0.8;
 }
 
-.custom-copyright-text a {
-  color: #888;
-  text-decoration: none;
+.footer .sep-before:before {
+  border-bottom-color: #e0e0e0;
+  opacity: 0.5;
+}
+
+/* 弱化 widget 标题 */
+.footer .widget-title {
+  font-size: 0.875em;
+  color: #999;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 0.75em;
+}
+
+/* 弱化 social menu */
+.footer .widget-social_menu li {
+  margin-right: 0.5em;
+}
+
+.footer .widget-social_menu li a {
+  font-size: 0.9375em;
+  color: #aaa;
+  opacity: 0.7;
   transition: all 0.3s ease;
-  border-bottom: 1px solid transparent;
 }
 
-.custom-copyright-text a:hover {
-  opacity: 0.9;
+.footer .widget-social_menu li a:hover {
   color: #666;
-  border-bottom: 1px solid #888;
+  opacity: 1;
 }
 
-/* Ensure smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* 弱化 search widget */
+.footer .widget-search .search-form {
+  max-width: 200px;
+  margin-left: auto;
 }
 
-/* Container styling */
-.custom-copyright-footer .container {
-  max-width: 800px;
-  margin: 0 auto;
+.footer .widget-search input {
+  font-size: 0.8125em;
+  padding: 0.4em 0.6em;
+  border-color: #e0e0e0;
+  background: transparent;
+  color: #999;
+  opacity: 0.7;
 }
 
-/* Responsive adjustments */
+.footer .widget-search input::placeholder {
+  color: #bbb;
+}
+
+.footer .widget-search input:focus {
+  border-color: #ccc;
+  opacity: 1;
+}
+
+.footer .widget-search .search-submit {
+  height: 2em;
+  width: 2em;
+  border-color: #e0e0e0;
+  background: transparent;
+  color: #bbb;
+  opacity: 0.7;
+}
+
+.footer .widget-search .search-submit:hover {
+  background: #f5f5f5;
+  color: #666;
+  opacity: 1;
+}
+
+/* 弱化 copyright */
+.footer .copyright {
+  margin-top: 2em;
+  padding-top: 1em;
+}
+
+.footer .copyright p {
+  font-size: 0.75em;
+  color: #bbb;
+  margin: 0;
+  opacity: 0.6;
+}
+
+.footer .copyright a {
+  color: #bbb;
+  opacity: 0.6;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.footer .copyright a:hover {
+  opacity: 1;
+  color: #888;
+}
+
+/* 响应式调整 */
 @media screen and (max-width: 768px) {
-  .custom-copyright-footer {
-    padding: 60px 15px;
-    margin-top: 70vh;
+  .footer .widget-search .search-form {
+    max-width: 100%;
   }
-  
-  .custom-copyright-text {
-    font-size: 12px;
+
+  .footer .copyright p {
+    font-size: 0.6875em;
   }
 }
 
