@@ -132,16 +132,25 @@ categories:
 ```
 /root/code/jneeee.github.io/
 ├── content/           # All markdown content
-│   └── posts/         # Blog posts
+│   └── blog/          # Blog posts and pages (2023/, 2022/, page/, etc.)
+├── layouts/           # Custom templates override theme
+│   ├── index.html     # Homepage (custom, minimal)
+│   └── _default/      # List, single, etc. overrides
+├── data/              # Data files (widget config overrides)
 ├── static/            # Static assets (images, files)
 ├── archetypes/        # Content templates
 ├── config.yml         # Hugo configuration
 ├── public/            # Generated site (gitignored)
 └── themes/minimo_local/
-    ├── layouts/       # Hugo templates
+    ├── layouts/       # Theme templates
     ├── assets/        # Source assets (JS, SCSS)
     └── package.json   # npm scripts for theme assets
 ```
+
+### Custom Layouts
+
+- `layouts/index.html` - Minimal homepage (title + blog link + beian)
+- `layouts/_default/list.html` - Blog list, excludes `content/blog/page/` content
 
 ## Cursor Rules
 
