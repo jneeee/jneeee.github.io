@@ -5,6 +5,7 @@ author: ['Jn']
 categories: 工作
 tags: ['python']
 description: 学习 Python 梦开始的地方
+listed: false
 ---
 
 用 `requests` 可以做一个功能完整强大的爬虫。用 webide 平台可以帮我直接测试它，非常方便。
