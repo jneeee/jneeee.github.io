@@ -5,6 +5,7 @@ author: Jn
 categories: 工作
 tags:
   - Python
+listed: false
 ---
 
 ## Python 实现单例模式
